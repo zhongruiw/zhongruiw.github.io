@@ -204,6 +204,11 @@ h1 {
   width: 100px;
   margin-bottom: -24px;
 }
+#blog .contact {
+  font-family: courier;
+  margin: 0;
+  padding-top: 0px;
+}
 #blog #y2017.year,
 #blog #y2018.year {
   margin-top: 0px;
