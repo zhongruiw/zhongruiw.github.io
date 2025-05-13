@@ -15,4 +15,4 @@ katex:
     error_color: "#cc0000"  # errorColor
 
 scholar:
-  bibliography: ["references.bib"]
+  bibliography: ["_bibliography/references.bib"]
