@@ -1,7 +1,7 @@
 ---
 title: Differences in the formulations of Kalman Filter and Kalman-Bucy Filter
 subtitle: 
-layout: default
+layout: blog_post
 date: 2025-05-08
 keywords: data assimilation
 published: true
