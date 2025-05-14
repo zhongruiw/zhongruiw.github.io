@@ -17,5 +17,6 @@ $$
 \mathbf{y}_{n+1} &= \mathbf{H} \mathbf{x}_{n+1} + \bm{\mathsf{\Sigma}}_{\mathbf{y}} \mathbf{\epsilon}_{\mathbf{y},n+1}
 \end{aligned}
 $$
-{% endkatexmm %}
 where $\mathbf{x}_n$ and $\mathbf{y}_n$ are unobserved states and observations at discrete time $t_n$, respectively. 
+
+{% endkatexmm %}
