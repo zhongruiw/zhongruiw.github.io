@@ -127,24 +127,11 @@ h1 {
 .article .figure .caption-label {
   font-weight: bold;
 }
-/*.article .footnote {
-  line-height: 0;
-}*/
-/* Footnote reference (superscript) styling */
-.footnote-ref {
-  font-size: 0.8em;  /* Adjust the size of the superscript */
-  vertical-align: super;  /* Keeps it above the baseline */
-  color: #777;        /* Change color if needed */
-}
-/* Footnote text styling */
 .article .footnote {
-  font-size: 2.0em;  /* Adjust the font size of the footnote text */
-  color: rgba(0, 0, 0, 0.7);  /* Adjust text color */
-  line-height: 1.4em; /* Line height for readability */
-  font-style: italic; /* Make footnote text italic */
+  line-height: 0;
 }
 .article .equation-number {
-  font-size: 0.8em;   /* Adjust font size of the number */
+  font-size: 2.0em;   /* Adjust font size of the number */
 }
 .article div.highlight {
   border-top: 1px solid rgba(0, 0, 0, 0.2);
