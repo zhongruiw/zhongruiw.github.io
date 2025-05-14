@@ -221,3 +221,13 @@ hr {
     margin: 0 7px;
   }
 }
+
+/* Target the footnote text */
+.footnote {
+  font-size: 0.5em; /* Adjust the font size as needed */
+}
+
+.equation-number {
+  font-size: 0.8em;  /* Adjust size as needed */
+}
+
