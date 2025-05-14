@@ -1,10 +1,9 @@
-﻿
----
+﻿---
 title: Differences in the Formulations of Kalman Filter and Kalman-Bucy Filter
-subtitle: 
+subtitle: Here is some extra detail about the post.
 layout: blog_post
 date: 2025-05-08
-keywords: data assimilation
+keywords: data assimilation, Kalman Filter
 published: true
 ---
 
@@ -98,4 +97,3 @@ $$
 \mathbf{y}(t0+\Delta t) - \mathbf{y}(t0) = \int_{t_0}^{t_0+\Delta t}\mathbf{H}\mathbf{x}(s)ds + \int_{t_0}^{t_0+\Delta t} \bm{\mathsf{\Sigma_{\mathbf{y}}}}\mathrm{d}\mathbf{W}_\mathbf{y}
 $$
 The time increments $\mathbf{y}(t0+\Delta t) - \mathbf{y}(t0)$ is considered as the "observation" with a noise $\int_{t_0}^{t_0+\Delta t} \bm{\mathsf{\Sigma_{\mathbf{y}}}}\mathrm{d}\mathbf{W}_\mathbf{y}\sim \mathcal{N}(0, \bm{\mathsf{\Sigma_{\mathbf{y}}}}\Delta t)$. By solely looking at $\mathbf{y}$, the $\mathbf{y}$ in Kalman-Bucy filter is very different from the observations $\mathbf{y}$ defined in Kalman filter. This should be noted with caution to avoid potential confusion.
-
