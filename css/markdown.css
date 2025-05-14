@@ -680,9 +680,3 @@
 .markdown-body hr {
   border-bottom-color: #eee;
 }
-
-/* Target the footnote text */
-.footnote {
-  font-size: 0.5em; /* Adjust the font size as needed */
-  font-style: italic; /* Make footnote text italic */
-}
